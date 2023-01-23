@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+/*footer*/
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "open Sans";
+  padding-top: 0.5px;
+  color: rgb(255, 255, 255);
+}
+
+
+.footer-content p{
+  max-width: 500px;
+  margin: 8px auto;
+  line-height:  28px;
+  font-size:  14px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+/* ===================================== */
+/* header */
+
+.header{
+  top:0;
+  position:fixed;
+	width: 100%;
+	height: 60px;
+	display: block;
+	background-color: rgb(27, 27, 27);
+}
+
+.inner_header{
+	width: 90%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	background-color: rgb(27, 27, 27);
+}
+
+.logo_container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1{
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Tangerine' ;
+  font-size: 38px;
+  text-shadow: 2px 2px 2px #aaaa;
+  font-weight: 200;
+}
+
+
+.logo_container span{
+	font-weight: 700;
+	font-family: 'Montserrat';
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+}
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+.navigation a:last-child{
+	padding-right:0;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: 'montserrat';
+	font-size: 16px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+	margin-top: 50px;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+
+  box-sizing: inherit;
+}
+
+.column {
+		margin-top: 60px;
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  	margin-bottom: 60px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+	
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+	 <!--Header -->
+  <div class="header">
+    <div class="inner_header">
+      <div class="logo_container">
+    <!-- Logo & name -->
+        <h1> <a href="petfood.html"> Pet <span> Paradise </span></h1></a>
+     </div> 
+
+     <ul class="navigation">
+        <a href="petfood.html"><li> Home </li></a>
+        <a href="about.html"><li> About </li></a>
+        <a href="petfood.html"><li> Service </li></a>
+        <a href="petfood.html"><li> Contact </li></a>
+    </ul>
+
+    </div>
+  </div>
+
+	
+<div class="about-section">
+  <h1>About Pet Paradise</h1>
+  <br>
+  <p>Nourishing Pets. Enriching Lives.</p>
+  <p>For over 90 years, we've been guided by the belief that pets and people are better together.</p>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Quality Pet Food</h2>
+    <p>The reason we're so invested in the quality of our food is because we love pets as much as you do. You'll find pets in our homes, and even sitting by our feet as we work in our offices.
+
+Our passion for pets goes beyond pushing pet nutrition forward, and into forging partnerships in the pet welfare world and raising awareness of what pets truly need. After all, we've seen firsthand how powerful the bond with a pet can be, and the many unique ways that pets can strengthen our families and bring our communities closer.</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Pet Paradise Dog Chow becomes the first pet food</h2>
+    <p>Because we want dedicated and passionate employees on our team, we make sure that Pet Paradise is a great place to work. You can tell from the moment you walk in the door that our world revolves around pets, whether you're seeing the art on the walls or the many cats and dogs that employees bring to work every day.
+
+Our quest to drive pet nutrition forward and conduct industry-leading research on the wellbeing of pets pushes our company to do more year after year. We work hard for your pets every day, and we love doing it.</p>
+  </div>
+</div>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+     
+      <div class="container">
+        <h2>Guram Kutaladze</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Guram.kutaladze@gmail.com</p>
+        <p>P: (347) 777-2121</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Elena Ciobanu</h2>
+        <p class="title">Chief Marketing Officer (CMO) </p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>CElena@gmail.com</p>
+        <p>P: (347) 777-8787</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Leonard popovic</h2>
+        <p class="title">Chief Executive Officer (CEO)</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>PLeonard@aol.com</p>
+         <p>P: (347) 777-5413</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+      <div class="footer-content">
+          
+ 
+    <div class="footer-bottom">
+        <p> copyright &copy;2021 codeOpacity. designed by <span> BMCC students </spam></p>
+    </div>
+    </footer>
+
+
+</body>
+</html>

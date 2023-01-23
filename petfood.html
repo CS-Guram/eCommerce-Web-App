@@ -1,0 +1,254 @@
+
+
+<!DOCTYPE html>
+<html>
+<title>Pet Food</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+<!-- Fonts -->
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", Times, serif;}
+.w3-bar-block .w3-bar-item {padding:30px}
+</style>
+
+<body>
+
+  <!--Header -->
+  <div class="header">
+    <div class="inner_header">
+      <div class="logo_container">
+
+    <!-- sidebar -->
+    <div class="w3-container">
+    <div class="w3-button w3-green w3-margin w3-padding-18 w3-left" onclick="w3_open()">☰</div>
+    </div>
+    <!-- Logo & name -->
+        <h1> <a href="petfood.html"> Pet <span> Paradise </span></h1></a>
+     </div> 
+
+     <ul class="navigation">
+        <a href="petfood.html"><li> Home </li></a>
+        <a href="about.html"><li> About </li></a>
+        <a href="petfood.html"><li> Service </li></a>
+        <a href="petfood.html"><li> Contact </li></a>
+    
+
+         <!-- checkout -->
+        <a href="checkout.html">
+        <img src="http://www.clker.com/cliparts/l/z/3/L/h/3/white-shopping-cart-md.png" 
+		class="w3-right w3-margin-right" style="width:60px; "></a>
+    </ul>
+
+    </div>
+  </div>
+
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+ style="display:none;z-index:2;width:10%;min-width:200px" id="mySidebar">
+
+ <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Supplies</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Cats</a>
+  <a href="#checkout.html" onclick="w3_close()" class="w3-bar-item w3-button">Dogs</a>
+</nav>
+
+<!--popop button -->
+<h1>The picture element</h1>
+
+<form action="login.php" method="post">
+<button class="open-button1" onclick="openForm1()">Login</button>
+</form>
+
+<form action="registration.php" method="post">
+<button class="open-button2" onclick="openForm2()">Create Account</button>
+
+<picture>
+  <img  src="coupon.png" alt="Flowers" 
+  style=" z-index: 2;
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 500px;
+  right: 100px;
+  width: 140px;">
+</picture>
+</form>
+<!-- button functions -->
+<script>
+  
+function openForm1() {
+  document.getElementById("open-button1").style.display = "block";
+}
+
+function closeForm1() {
+  document.getElementById("open-button1").style.display = "none";
+}
+
+function openForm2() {
+  document.getElementById("open-button2").style.display = "block";
+}
+
+function closeForm2() {
+  document.getElementById("open-button2").style.display = "none";
+}
+
+
+</script>
+
+<!--picures and article (body)-->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/rKhMQU9.png" alt="dogpic" style="width:100%">
+      <h3>The Perfect Petstore </h3>
+      <p>New to the neighborhood, and with more affordable prices than the competitors..</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/Qk5l9w3.png" alt="options" style="width:100%">
+      <h3>Selling you the leading brand</h3>
+      <p>We sell the #1 selling pet-foods, and also some less-known local ones that have a special and unique taste that cats and dogs enjoy, alike.</p>
+	  <p> <u> Watch our Video! </u> <p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/aJ9PXJ2.png" alt="wellness" style="width:100%">
+      <h3>Wellness</h3>
+      <p>You keep them happy, we’ll keep them healthy.</p>
+      <p> <b> Top-Seller </b> </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/XDk2lxl.png" alt="naturalchoice" style="width:100%">
+      <h3>Natural Choice</h3>
+      <p>Your Pet. Our Passion..</p>
+    </div>
+  </div>
+  
+
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/fjlOFbq.png" alt="Prairie" style="width:100%">
+      <h3>Prairie</h3>
+      <p>What healthy dogs and cats are made of.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/Q402KfC.png" alt="Iams" style="width:100%">
+      <h3>IAMS</h3>
+      <p>Life's Better</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/ZfuAakL.png" alt="SD" style="width:100%">
+      <h3>Science Diet</h3>
+      <p>Veterinarian Recommended</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i.imgur.com/Za8TDwc.png" alt="Croissant" style="width:100%">
+      <h3>Pedigree</h3>
+      <p>Good for Today. Good for Life.</p>
+    </div>
+  </div>
+
+
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-green">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-green">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Us, The local company</h3><br>
+    <img src="https://i.imgur.com/rKhMQU9.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="400">
+    <div class="w3-padding-32">
+      <h4><b>Here to help!</b></h4>
+      <h6><i>With Passion For Real, Good service</i></h6>
+      <p> New deals that beat the current competition, Affordable prices, for a variety of animals. </p>
+	  <p>Pet Paradise is a leading pet specialty retailer that obsesses about delivering health and happy experiences for pets and the people who love them. By providing the products, services, advice and experiences that keep pets physically fit, mentally alert, socially engaged and emotionally happy.
+	 </p>
+	 <p> 
+    </div>
+  </div>
+  <hr>
+  
+ 
+  <div class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Location</h3>
+	  <img src="https://i.imgur.com/VrELmVi.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="400">
+      <p>We are located in Union Square, offer <u>free delivery</u>, pets are allowed inside all our store locations.</p>
+    </div>
+  
+    <div class="w3-third w3-serif">
+   <h3>SOCIAL MEDIA</h3>
+      <ul class="w3-ul w3-hoverable">
+    
+        <li class="w3-padding-16">
+          <img src="https://i.imgur.com/4wDTj7S.png" class="w3-left w3-margin-right" style="width:50px">
+           <a href="https://www.facebook.com/Pet-Paradise-103546218534642" style="color:#FF0000;" class="w3-large">Facebook</a>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://i.imgur.com/YzrNj4c.png" class="w3-left w3-margin-right" style="width:50px">
+      <a href="https://www.instagram.com/petparadise2022/" style="color:#FF0000;" class="w3-large">Instagram</a>
+      <li class="w3-padding-16">
+          <img src="https://i.imgur.com/WWZIIdU.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Pintrest</span><br>
+        <li class="w3-padding-16">
+          <img src="https://i.imgur.com/nHWfyI8.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Award Winners</span><br>
+     <br> <span> We take pride in the customer service we provide, we have won the New York Times most friendly store award for 2021! </span> </br>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Animals</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Petfood</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Wellness</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Natural Choice</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Iams</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dogs</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cats</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Birds</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pets</span> <span class="w3-tag w3-blue w3-small w3-margin-bottom">NYC</span>
+      </p>
+    </div>
+  </div>
+
+
+</div>
+
+<script>
+
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+<footer>
+      <div class="footer-content">
+          
+ 
+    <div class="footer-bottom">
+        <p> copyright &copy;2021 codeOpacity. designed by <span> BMCC students </spam></p>
+    </div>
+    </footer>
+
+</body>
+</html>
